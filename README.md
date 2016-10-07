@@ -1,0 +1,1 @@
+# the javascript function collections for daily usage
