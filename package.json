@@ -1,0 +1,31 @@
+{
+  "name": "jf-utils",
+  "version": "1.0.0",
+  "description": "utils collection for my average usation",
+  "main": "index.js",
+  "scripts": {
+		"watch": "mocha --watch tests/",
+    "test": "mocha --reporter spec --timeout 2000 --recursive tests/",
+    "test-cov": "istanbul cover ./node_modules/mocha/bin/_mocha -- -t 2000 --recursive  -R spec tests/",
+    "test-html": "mocha --reporter mochawesome tests/"
+	},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tongyimplin/jf-utils.git"
+  },
+  "keywords": [
+    "jafar.tang",
+    "utils"
+  ],
+  "author": "jafar.tang",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tongyimplin/jf-utils/issues"
+  },
+  "homepage": "https://github.com/tongyimplin/jf-utils#readme",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.1.0",
+    "mochawesome": "^1.5.3"
+  }
+}
