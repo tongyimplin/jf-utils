@@ -1,6 +1,6 @@
 {
   "name": "jf-utils",
-  "version": "1.0.0",
+  "version": "1.2.0",
   "description": "utils collection for my average usation",
   "main": "index.js",
   "scripts": {

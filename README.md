@@ -2,7 +2,7 @@
 
 ## 更新日志
 
-### 1.0.1
+### 1.1.0
 
 * 增加许多新功能
  * 跳转到昨天
@@ -68,3 +68,14 @@ d.toFormattedString();``
 * prevYear 转到上一年
 * nextYear 转到下一年
 * getCurMonthDayCount 获取当前月最大天数
+
+**Date对象**
+
+    #使用示例
+    var JfLogger = new ('jf-utils').logger;
+    var logger = new JfLogger('currentPage.html'); //当前页面的名称用于区分打印信息
+    logger.debug('这是调试信息');
+    logger.info('这是通知信息');
+    logger.warn('这是警告信息');
+    logger.error('这是错误信息');
+    logger.fatal('这是致命信息');
